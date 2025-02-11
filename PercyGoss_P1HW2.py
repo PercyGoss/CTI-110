@@ -3,7 +3,8 @@
 # P1HW1
 # Another simple demonstration of Python's formula system, differently formatted.
 
-print("This program calculates and displays your hypothetical travel expenses based on your own estimates.")
+print("This program displays your hypothetical travel expenses based on your own estimates. Basically, it's a glorified yet limited subtraction calculator.")
+# I find transparency with your users to be very important, hence the tweaked heading.
 print()
 dest = input("Where are you going? ")
 print()
