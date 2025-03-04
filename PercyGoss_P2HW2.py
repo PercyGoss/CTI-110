@@ -10,10 +10,11 @@ M4 = float(input("Enter grade for Module 4: "))
 M5 = float(input("Enter grade for Module 5: "))
 M6 = float(input("Enter grade for Module 6: "))
 
-lowest = min(M1, M2, M3, M4, M5, M6)
-highest = max(M1, M2, M3, M4, M5, M6)
-total = M1 + M2 + M3 + M4 + M5 + M6
-avg = total / 6
+grades = [M1, M2, M3, M4, M5, M6]
+lowest = min(grades)
+highest = max(grades)
+total = sum(grades)
+avg = total / len(grades)
 
 print()
 
